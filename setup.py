@@ -1,3 +1,4 @@
+
 from setuptools import find_packages
 from setuptools import setup
 
@@ -13,5 +14,5 @@ setup(name='first_project',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/first_project-run'],
+      scripts=['scripts/first_project-run', 'scripts/mlproject-computedist'],
       zip_safe=False)
